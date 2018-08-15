@@ -1,0 +1,20 @@
+name: seq2seq
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6.*
+  - numpy=1.12.*
+  - scipy=1.0.*
+  - openblas=0.2.*
+  - scikit-learn=0.19.*
+  - cython=0.25.*
+  - pandas=0.20.*
+  - pytest=3.3.*
+  - cytoolz=0.8.*
+  - nltk=3.2.*
+  - gensim=2.3.*
+  - pip:
+    - mypy==0.560
+    - spacy==2.0.*
+    - textacy==0.5.*
